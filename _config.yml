@@ -1,6 +1,6 @@
 title: Leaf Blog
 iconURL: assets/default-icon.png
-theme: jekyll-theme-leaf
+remote_theme: supun-io/jekyll-theme-leaf
 
 # for a clean URL
 permalink: :slug
@@ -12,6 +12,7 @@ social:
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-remote-theme
 
 ### comments & analytics
 hyvor_talk_website_id: 14
