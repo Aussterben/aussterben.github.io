@@ -2,6 +2,6 @@
 
 source "https://rubygems.org"
 gemspec
-
-bundle install
-bundle exec jekyll serve
+https://github.com/Aussterben/aussterben.github.io/edit/master/Gemfile
+gem "base64"
+gem "bigdecimal"
