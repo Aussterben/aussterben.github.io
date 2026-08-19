@@ -5,3 +5,4 @@ gemspec
 gem "base64"
 gem "bigdecimal"
 gem "jekyll-remote-theme"
+gem "kramdown-parser-gfm"
