@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aitor Linares · Aussterben</title>
+<meta name="description" content="Aitor Linares, 'Aussterben'. Contenido de ciberseguridad ofensiva y sistemas operativos.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="#top">aussterben_</a>
+  <nav>
+    <a href="#blog">blog</a>
+    <span aria-hidden="true">·</span>
+    <a href="#enlaces">enlaces</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="terminal" id="terminal" aria-label="root@aussterben:~$ whoami — Aitor Linares, Aussterben">
+      <span class="prompt">root@aussterben:~$</span> <span id="typed"></span><span class="cursor" aria-hidden="true">▌</span>
+    </p>
+    <h1>Aitor Linares</h1>
+    <p class="tagline">Aussterben — Hacking Web lover</p>
+    <p class="hero-desc">Ciberseguridad ofensiva y sistemas operativos, explicados y grabados como se aprenden de verdad: rompiendo cosas y entendiendo por qué funcionan.</p>
+  </section>
+
+  <section class="panel" id="sobre-mi">
+    <p class="tag">// sobre-mí</p>
+    <p class="bio">Hola, soy Aitor Linares, mejor conocido como <strong>Aussterben</strong>. Creo contenido sobre ciberseguridad ofensiva y sistemas operativos: pentesting, herramientas, laboratorios y todo lo que rodea al hacking desde el lado práctico.</p>
+    <ul class="tags">
+      <li>ciberseguridad ofensiva</li>
+      <li>pentesting</li>
+      <li>sistemas operativos</li>
+      <li>hacking web</li>
+    </ul>
+  </section>
+
+  <section class="panel" id="blog">
+    <p class="tag">// blog</p>
+    <div class="posts" id="posts"></div>
+  </section>
+
+  <section class="panel" id="enlaces">
+    <p class="tag">// enlaces</p>
+    <ul class="links">
+      <li>
+        <a href="https://www.youtube.com/@aussterbenDev" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12s0-3.4-.4-5a2.9 2.9 0 0 0-2-2C17.9 4.5 12 4.5 12 4.5s-5.9 0-7.6.5a2.9 2.9 0 0 0-2 2C2 8.6 2 12 2 12s0 3.4.4 5a2.9 2.9 0 0 0 2 2c1.7.5 7.6.5 7.6.5s5.9 0 7.6-.5a2.9 2.9 0 0 0 2-2c.4-1.6.4-5 .4-5Z"/><path d="M10 15.2 15.5 12 10 8.8Z" fill="var(--bg)"/></svg>
+          <span>YouTube</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Aussterben" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.5-1.1-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5a3.9 3.9 0 0 1 1-2.7 3.6 3.6 0 0 1 .1-2.7s.9-.3 2.9 1a10 10 0 0 1 5.4 0c2-1.3 2.9-1 2.9-1a3.6 3.6 0 0 1 .1 2.7 3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.7-4.6 5 .3.3.6.9.6 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.tiktok.com/@aussterbendev" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 3c.4 2.2 1.8 3.7 4 3.9v2.6a6.7 6.7 0 0 1-4-1.3v6.5a5.6 5.6 0 1 1-5.6-5.6c.3 0 .6 0 .9.1v2.7a2.9 2.9 0 1 0 2.1 2.8V3Z"/></svg>
+          <span>TikTok</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://discord.gg/tDQ7TaWyc2" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 5.7A16 16 0 0 0 14.9 4.5l-.2.4a13.4 13.4 0 0 1 3.5 1.3 14.6 14.6 0 0 0-12.4 0 13.4 13.4 0 0 1 3.5-1.3l-.2-.4A16 16 0 0 0 5.1 5.7C3 9 2.4 12.2 2.7 15.4a16 16 0 0 0 4.6 2.3l.7-1.2a10.4 10.4 0 0 1-1.6-.8l.4-.3a11.5 11.5 0 0 0 10.4 0l.4.3a10.4 10.4 0 0 1-1.6.8l.7 1.2a16 16 0 0 0 4.6-2.3c.4-3.7-.6-6.8-2.4-9.7ZM9.7 13.6c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Zm4.6 0c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7Z"/></svg>
+          <span>Discord</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Aitor Linares — Aussterben</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
